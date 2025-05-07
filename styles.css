@@ -318,10 +318,6 @@ FEATURES ↓
 */
 
 
-#features {
-    position: relative;
-}
-
 #features .row__narrow {
     display: flex;
     flex-direction: column;
@@ -347,6 +343,30 @@ FEATURES ↓
     margin-top: 8px;
     margin-left: 16px;
 }
+
+.feature__para {
+    margin-top: 16px;
+    font-size: 16px;
+    max-width: calc(211.333px);
+    color: rgb(124, 139, 161);
+    line-height: 2;
+    font-weight: 500;
+}
+
+.feature__row {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 32px 24px;
+}
+
+.feature {
+    flex: 1 1 calc(33.33% - 20px); 
+    max-width: 300px;
+    position: relative;
+}
+
+
 
 @media (max-width: 640px) {
     .nav__logo {
