@@ -327,9 +327,11 @@ FEATURES ↓
 .features {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px; 
-    justify-content: center; 
-    max-width: 1200px;
+    gap: 32px;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Ensures vertical alignment */
+    max-width: 1200px; /* Keeps the section manageable */
+    margin: 0 auto; /* Centers the container */
 }
 
 .feature__img--wrapper {
