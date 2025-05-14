@@ -62,6 +62,7 @@ section {
 }
 
 .section__title {
+    font-size: 48px;
     font-weight: 900;
     color: rgb(36, 62, 99);
     line-height: 1.5;
@@ -391,6 +392,10 @@ FEATURES ↓
     text-align: center; 
 }
 
+.section__tag {
+    font-size: 16px;
+}
+
 
 @media (max-width: 640px) {
     .nav__logo {
@@ -418,7 +423,6 @@ FEATURES ↓
     #features .section__title, #pricing .section__title {
         font-size: 48px;
     }
-
 }
 
 @media (max-width: 1280px) {
