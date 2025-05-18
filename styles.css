@@ -413,6 +413,29 @@ FEATURES ↓
     margin-top: 32px;
 }
 
+#quality .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#quality .section__title, #values .section__title {
+    line-height: 1.25;
+}
+
+.quality__description {
+    max-width: 576px;
+    margin-right: 64px;
+}
+
+.quality__description, .quality__img--wrapper {
+    width: 50%;
+}
+
+.quality__img {
+    z-index: 1;
+}
+
 .section__para {
     text-align: center;
     font-size: 18px;
