@@ -471,6 +471,12 @@ FEATURES ↓
 
 /* Steps */
 
+#steps .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .steps__img {
     z-index: 2;
 }
@@ -498,8 +504,7 @@ FEATURES ↓
 }
 
 .step__description {
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     margin-left: 24px;
     max-width: 320px;
