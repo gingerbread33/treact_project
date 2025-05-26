@@ -539,6 +539,7 @@ FEATURES ↓
 }
 
 .values__description {
+    display: flex;
     padding: 32px 64px 32px 0;
 }
 
