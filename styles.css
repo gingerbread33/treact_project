@@ -556,6 +556,10 @@ FEATURES ↓
     margin-right: 32px;
 }
 
+.value:nth-of-type(2) {
+    margin-top: 32px;
+}
+
 .value__title {
     display: flex;
     align-items: center;
@@ -563,6 +567,10 @@ FEATURES ↓
 
 .value:nth-child(1) .value__img--wrapper {
     background-color: #9ae6b4;
+}
+
+.value:nth-child(2) .value__img--wrapper {
+    background-color: #feb2b2;
 }
 
 .value__img--wrapper {
@@ -578,6 +586,7 @@ FEATURES ↓
     width: 20px;
     height: 20px;
 }
+
 
 .value__name {
     margin-left: 12px;
