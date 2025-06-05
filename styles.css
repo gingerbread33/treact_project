@@ -738,6 +738,11 @@ FEATURES ↓
     visibility: hidden;
 }
 
+.plan:nth-child(2) .plan__button {
+    color: #6415ff;
+    background-color: #f7fafc;
+}
+
 .plan:nth-child(2) .plan__name, .plan:nth-child(2) .plan__price, .plan:nth-child(2) .plan__target, .plan:nth-child(2) .plan__duration, .plan:nth-child(2) .plan__feature {
     color: #f7fafc;
 }
@@ -745,6 +750,11 @@ FEATURES ↓
 .plan:nth-child(2) .plan__middle {
     border-top: 2px solid rgb(102, 126, 234);
     border-bottom: 2px solid rgb(102, 126, 234);
+}
+
+.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 
