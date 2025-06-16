@@ -865,9 +865,32 @@ FEATURES ↓
     background: rgb(229, 231, 235);
 }
 
+/* 
+
+START / CALL TO ACTION ↓
+
+*/
 
 
 
+#start .row {
+    position: relative;
+    overflow: hidden;
+}
+
+/* 
+
+FOOTER ↓
+
+*/
+
+footer {
+    padding: 96px 32px;
+    background-color: rgb(100, 21, 255);
+    margin-bottom: -32px;
+    position: relative;
+    overflow: hidden;
+}
 
 
 
